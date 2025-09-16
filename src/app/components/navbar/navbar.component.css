@@ -1,0 +1,51 @@
+/* Couleurs personnalisées */
+.custom-navbar {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  color: #fff !important;
+}
+
+.navbar-brand .text-accent {
+  color: #ffd700; /* Jaune doré pour contraste */
+}
+
+/* Liens */
+.nav-link {
+  color: #f1f1f1 !important;
+  font-size: 1.1rem;
+  margin-left: 15px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #ffd700;
+}
+
+/* Boutons */
+.btn-accent {
+  background-color: #ffd700;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn-accent:hover {
+  background-color: #e6c200;
+}
+
+.btn-outline-light {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #007bff;
+}

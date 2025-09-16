@@ -1,1 +1,65 @@
-<p>candidate-dashboard works!</p>
+<div class="container py-5">
+  <h2 class="fw-bold mb-4">🎯 Tableau de bord Candidat</h2>
+
+  <!-- Résumé -->
+  <div class="row mb-4">
+    <div class="col-md-4">
+      <div class="card shadow-sm text-center">
+        <div class="card-body">
+          <h5 class="card-title">📤 Candidatures envoyées</h5>
+          <p class="display-6 fw-bold text-primary">5</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm text-center">
+        <div class="card-body">
+          <h5 class="card-title">✅ Acceptées</h5>
+          <p class="display-6 fw-bold text-success">2</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm text-center">
+        <div class="card-body">
+          <h5 class="card-title">⏳ En attente</h5>
+          <p class="display-6 fw-bold text-warning">3</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Liste candidatures -->
+  <h4 class="mb-3">📄 Mes candidatures</h4>
+  <table class="table table-hover shadow-sm">
+    <thead class="table-dark">
+      <tr>
+        <th>Offre</th>
+        <th>Entreprise</th>
+        <th>Date</th>
+        <th>Statut</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Développeur Angular</td>
+        <td>TechCorp</td>
+        <td>10/09/2025</td>
+        <td><span class="badge bg-warning">En attente</span></td>
+      </tr>
+      <tr>
+        <td>Ingénieur DevOps</td>
+        <td>CloudSys</td>
+        <td>05/09/2025</td>
+        <td><span class="badge bg-success">Acceptée</span></td>
+      </tr>
+      <tr>
+        <td>Analyste Data</td>
+        <td>DataPlus</td>
+        <td>01/09/2025</td>
+        <td><span class="badge bg-danger">Rejetée</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

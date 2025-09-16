@@ -12,7 +12,7 @@ export const routes: Routes = [
   { path: 'jobs', component: JobsComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'dashboard', component: CandidateDashboardComponent },
+  { path: 'dashboard', component: CandidateDashboardComponent }
 
 
 
